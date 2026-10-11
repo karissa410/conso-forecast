@@ -1,0 +1,4 @@
+# Normalise line endings so Windows and Linux contributors produce identical files.
+* text=auto eol=lf
+*.ipynb text eol=lf
+*.png binary

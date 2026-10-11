@@ -1,0 +1,31 @@
+# Data is never versioned: `make data` downloads and rebuilds it.
+/data/
+
+# Experiment tracking (MLflow) and generated model artefacts
+/mlruns/
+/mlartifacts/
+/mlflow.db
+/models/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+build/
+dist/
+
+# Tooling caches
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
